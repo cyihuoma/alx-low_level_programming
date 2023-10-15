@@ -42,7 +42,5 @@ char *argstostr(int ac, char **av)
 	}
 	*str_ptr = '\0';
 
-	return str;
+	return (str);
 }
-
-	
